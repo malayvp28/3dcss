@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSSDesk</title>
+    <style type="text/css">
+ @font-face {
+    font-family: 'font';
+    src: url('CoventryGardenNF.ttf');
+}
+      
+   .wrap{
+
+  perspective:1000px;
+  position:relative;
+  perspective-origin:50% 50%;
+  }
+.cube1 div{
+
+border:2px solid black;
+
+height:30px;
+width:60px;
+}
+.cube2 div{
+
+border:2px solid black;
+
+height:90px;
+width:120px;
+}
+.cube3 div{
+
+border:2px solid black;
+height:120px;
+width:180px;
+}
+
+.cube4 div{
+height:150px;
+width:200px;
+
+border:2px solid black;
+}
+
+
+.cube5 div{
+
+border:2px solid black;
+height:120px;
+width:180px;
+}
+.cube6 div{
+
+border:2px solid black;
+height:60px;
+width:120px;
+
+}
+
+
+.cube7 div{
+
+border:2px solid black;
+height:30px;
+width:60px;
+}
+
+
+.cube7{
+  transform-style:preserve-3d;
+  height:40px;
+  width:70px;;
+  margin:auto;
+  
+  position:relative;
+
+  
+}
+.cube7 div{
+  position:absolute;
+  opacity:1;
+  
+}
+.cube7 div:nth-child(1)
+{
+  transform:rotateY(0deg) translateZ(60px);
+  margin-left:10px;
+  
+  
+}
+.cube7 div:nth-child(2)
+{
+  transform:rotateY(60deg) translateZ(60px);
+   margin-left:10px;
+}
+.cube7 div:nth-child(3)
+{
+  transform:rotateY(120deg) translateZ(60px);
+   margin-left:10px;
+}
+.cube7 div:nth-child(4)
+{
+  transform:rotateY(180deg) translateZ(60px);
+   margin-left:10px;
+}
+.cube7 div:nth-child(5)
+{
+  transform:rotateY(-120deg) translateZ(60px);
+   margin-left:10px;
+}
+.cube7 div:nth-child(6)
+{
+  transform:rotateY(-60deg) translateZ(60px);
+   margin-left:10px;
+}
+
+@keyframes loop{
+  from{transform:rotateY(0deg) ;}
+   to{transform:rotateY(360deg) ; }
+  
+  }
+  .cube7{
+    animation:loop 20s linear infinite;}
+  .cube1{
+  transform-style:preserve-3d;
+  height:43px;
+  width:70px;;
+  margin:auto;
+  position:relative;
+
+  
+}
+.cube1 div{
+  position:absolute;
+  opacity:1;
+  
+}
+.cube1 div:nth-child(1)
+{
+  transform:rotateY(0deg) translateZ(60px);
+  margin-left:10px;
+  
+  
+}
+.cube1 div:nth-child(2)
+{
+  transform:rotateY(60deg) translateZ(60px);
+   margin-left:10px;
+}
+.cube1 div:nth-child(3)
+{
+  transform:rotateY(120deg) translateZ(60px);
+   margin-left:10px;
+}
+.cube1 div:nth-child(4)
+{
+  transform:rotateY(180deg) translateZ(60px);
+   margin-left:10px;
+}
+.cube1 div:nth-child(5)
+{
+  transform:rotateY(-120deg) translateZ(60px);
+   margin-left:10px;
+}
+.cube1 div:nth-child(6)
+{
+  transform:rotateY(-60deg) translateZ(60px);
+   margin-left:10px;
+}
+
+@keyframes loop{
+  from{transform:rotateY(0deg) ;}
+   to{transform:rotateY(360deg) ; }
+  
+  }
+  .cube1{
+    animation:loop 20s linear infinite;}
+.cube6{
+  transform-style:preserve-3d;
+  height:74px;
+  width:320px;
+  margin:auto;
+  position:relative;
+
+  
+}
+.cube6 div{
+  position:absolute;
+  opacity:1;
+  
+}
+.cube6 div:nth-child(1)
+{
+  transform:rotateY(0deg) translateZ(120px);
+  margin-left:100px;
+  
+  
+}
+.cube6 div:nth-child(2)
+{
+  transform:rotateY(60deg) translateZ(120px);
+   margin-left:100px;
+}
+.cube6 div:nth-child(3)
+{
+  transform:rotateY(120deg) translateZ(120px);
+   margin-left:100px;
+}
+.cube6 div:nth-child(4)
+{
+  transform:rotateY(180deg) translateZ(120px);
+   margin-left:100px;
+}
+.cube6 div:nth-child(5)
+{
+  transform:rotateY(-120deg) translateZ(120px);
+   margin-left:100px;
+}
+.cube6 div:nth-child(6)
+{
+  transform:rotateY(-60deg) translateZ(120px);
+   margin-left:100px;
+}
+
+@keyframes loop{
+  from{transform:rotateY(0deg) ;}
+   to{transform:rotateY(360deg) ; }
+  
+  }
+  .cube6{
+    animation:loop 20s linear infinite;}
+	.cube2{
+  transform-style:preserve-3d;
+  height:80px;
+  width:320px;
+  margin:auto;
+  position:relative;
+
+  
+}
+.cube2 div{
+  position:absolute;
+  opacity:1;
+  
+}
+.cube2 div:nth-child(1)
+{
+  transform:rotateY(0deg) translateZ(120px);
+  margin-left:100px;
+  
+  
+}
+.cube2 div:nth-child(2)
+{
+  transform:rotateY(60deg) translateZ(120px);
+   margin-left:100px;
+}
+.cube2 div:nth-child(3)
+{
+  transform:rotateY(120deg) translateZ(120px);
+   margin-left:100px;
+}
+.cube2 div:nth-child(4)
+{
+  transform:rotateY(180deg) translateZ(120px);
+   margin-left:100px;
+}
+.cube2 div:nth-child(5)
+{
+  transform:rotateY(-120deg) translateZ(120px);
+   margin-left:100px;
+}
+.cube2 div:nth-child(6)
+{
+  transform:rotateY(-60deg) translateZ(120px);
+   margin-left:100px;
+}
+
+@keyframes loop{
+  from{transform:rotateY(0deg) ;}
+   to{transform:rotateY(360deg) ; }
+  
+  }
+  .cube2{
+    animation:loop 20s linear infinite;}
+	
+	.cube5{
+  transform-style:preserve-3d;
+  height:110px;
+  width:400px;
+  margin:auto;
+  position:relative;
+
+  
+}
+.cube5 div{
+  position:absolute;
+  opacity:1;
+  
+}
+.cube5 div:nth-child(1)
+{
+  transform:rotateY(0deg) translateZ(180px);
+  margin-left:100px;
+  
+  
+}
+.cube5 div:nth-child(2)
+{
+  transform:rotateY(60deg) translateZ(180px);
+   margin-left:100px;
+}
+.cube5 div:nth-child(3)
+{
+  transform:rotateY(120deg) translateZ(180px);
+   margin-left:100px;
+}
+.cube5 div:nth-child(4)
+{
+  transform:rotateY(180deg) translateZ(180px);
+   margin-left:100px;
+}
+.cube5 div:nth-child(5)
+{
+  transform:rotateY(-120deg) translateZ(180px);
+   margin-left:100px;
+}
+.cube5 div:nth-child(6)
+{
+  transform:rotateY(-60deg) translateZ(180px);
+   margin-left:100px;
+}
+
+@keyframes loop{
+  from{transform:rotateY(0deg) ;}
+   to{transform:rotateY(360deg) ; }
+  
+  }
+  .cube5{
+    animation:loop 20s linear infinite;}
+	
+		.cube3{
+  transform-style:preserve-3d;
+  height:125px;
+  width:400px;
+  margin:auto;
+  position:relative;
+
+  
+}
+.cube3 div{
+  position:absolute;
+  opacity:1;
+  
+}
+.cube3 div:nth-child(1)
+{
+  transform:rotateY(0deg) translateZ(180px);
+  margin-left:100px;
+  
+  
+}
+.cube3 div:nth-child(2)
+{
+  transform:rotateY(60deg) translateZ(180px);
+   margin-left:100px;
+}
+.cube3 div:nth-child(3)
+{
+  transform:rotateY(120deg) translateZ(180px);
+   margin-left:100px;
+}
+.cube3 div:nth-child(4)
+{
+  transform:rotateY(180deg) translateZ(180px);
+   margin-left:100px;
+}
+.cube3 div:nth-child(5)
+{
+  transform:rotateY(-120deg) translateZ(180px);
+   margin-left:100px;
+}
+.cube3 div:nth-child(6)
+{
+  transform:rotateY(-60deg) translateZ(180px);
+   margin-left:100px;
+}
+
+@keyframes loop{
+  from{transform:rotateY(0deg) ;}
+   to{transform:rotateY(360deg) ; }
+  
+  }
+  .cube3{
+    animation:loop 20s linear infinite;}
+	
+	.cube4{
+  transform-style:preserve-3d;
+  height:155px;
+  width:400px;
+  margin:auto;
+  position:relative;
+
+  
+}
+.cube4 div{
+  position:absolute;
+  opacity:1;
+  
+}
+.cube4 div:nth-child(1)
+{
+  transform:rotateY(0deg) translateZ(230px);
+  margin-left:100px;
+  
+  
+}
+.cube4 div:nth-child(2)
+{
+  transform:rotateY(60deg) translateZ(230px);
+   margin-left:100px;
+}
+.cube4 div:nth-child(3)
+{
+  transform:rotateY(120deg) translateZ(230px);
+   margin-left:100px;
+}
+.cube4 div:nth-child(4)
+{
+  transform:rotateY(180deg) translateZ(230px);
+   margin-left:100px;
+}
+.cube4 div:nth-child(5)
+{
+  transform:rotateY(-120deg) translateZ(230px);
+   margin-left:100px;
+}
+.cube4 div:nth-child(6)
+{
+  transform:rotateY(-60deg) translateZ(230px);
+   margin-left:100px;
+}
+
+@keyframes loop{
+  from{transform:rotateY(0deg) ;}
+   to{transform:rotateY(360deg) ; }
+  
+  }
+  .cube4{
+    animation:loop 20s linear infinite;}
+@keyframes loop1{
+  0%{transform:rotateX(45deg) ;}
+   10%{transform:rotateX(42deg) ; }
+   20%{transform:rotateX(48deg) ; }
+   30%{transform:rotateX(45deg) ; }
+   40%{transform:rotateX(42deg) ; }
+   50%{transform:rotateX(45eg) ; }
+   60%{transform:rotateX(45deg) ; }
+   70%{transform:rotateX(42deg) ; }
+   80%{transform:rotateX(45deg) ; }
+   90%{transform:rotateX(48deg) ; }
+   100%{transform:rotateX(45deg) ; }
+  }	
+	
+.p{
+transform:rotateX(45deg);
+left:50%;
+position:absolute;
+}	
+
+p:nth-child(1)
+{
+top:20%;
+position:absolute;
+font-size:80px;
+font-family:'font';
+left:10%;
+}
+
+    </style>
+  </head>
+  <body>
+  
+  <div style="font">
+  <p><b>Hello,<br> I am <span style="color:red">Pruthvi</span></b></p>
+  </div>
+  <div class="p">
+    <div class="wrap">
+  <div class="cube1">
+  <div height="30px"; width="60px;"  ></div>
+ <div height="30px"; width="60px;" ></div>
+ <div height="30px"; width="60px;" ></div>
+ <div height="30px"; width="60px;" ></div>
+ <div height="30px"; width="60px;" ></div>
+ <div height="30px"; width="60px;" ></div>
+ </div>
+</div>
+    <div class="wrap">
+  <div class="cube2">
+  <div height="60px"; width="120px;" ></div>
+ <div height="60px"; width="120px;" ></div>
+ <div height="60px"; width="120px;" ></div>
+ <div height="60px"; width="120px;" ></div>
+ <div height="60px"; width="120px;" ></div>
+ <div height="60px"; width="120px;" ></div>
+ </div>
+</div>
+    <div class="wrap">
+  <div class="cube3">
+  <div height="90px"; width="180px;" ></div>
+ <div height="90px"; width="180px;" ></div>
+ <div height="90px"; width="180px;" ></div>
+ <div height="90px"; width="180px;" ></div>
+ <div height="90px"; width="180px;" ></div>
+ <div height="90px"; width="180px;" ></div>
+ </div>
+</div>
+    <div class="wrap">
+  <div class="cube4">
+  <div height="120px"; width="200px;" ></div>
+ <div height="120px"; width="200px;" ></div>
+ <div height="120px"; width="200px;" ></div>
+ <div height="120px"; width="200px;" ></div>
+ <div height="120px"; width="200px;" ></div>
+ <div height="120px"; width="200px;" ></div>
+ </div>
+</div>
+    <div class="wrap">
+  <div class="cube5">
+  <div height="90px"; width="180px;" ></div>
+ <div height="90px"; width="180px;" ></div>
+ <div height="90px"; width="180px;" ></div>
+ <div height="90px"; width="180px;" ></div>
+ <div height="90px"; width="180px;" ></div>
+ <div height="90px"; width="180px;" ></div>
+ </div>
+</div><div class="wrap">
+  <div class="cube6">
+  <div height="60px"; width="120px;" ></div>
+ <div height="60px"; width="120px;" ></div>
+ <div height="60px"; width="120px;" ></div>
+ <div height="60px"; width="120px;" ></div>
+ <div height="60px"; width="120px;" ></div>
+ <div height="60px"; width="120px;" ></div>
+ </div>
+</div>
+
+  <div class="wrap">
+  <div class="cube7">
+  <div height="30px"; width="60px;" ></div>
+ <div height="30px"; width="60px;" ></div>
+ <div height="30px"; width="60px;" ></div>
+ <div height="30px"; width="60px;" ></div>
+ <div height="30px"; width="60px;" ></div>
+ <div height="30px"; width="60px;" ></div>
+ </div>
+</div>
+    
+</div>
+  </body>
+</html>
